@@ -74,7 +74,7 @@ const ChatbotIntegration = () => {
   };
 
   return (
-    <div className="chatbot-integration" style={{ height:"70vh", display:"flex",justifyContent:"center",alignItems:"center"}}>
+    <div className="chatbot-integration">
       <ToastContainer />
       <h2>Chatbot Integration</h2>
 

@@ -14,7 +14,7 @@ const ScrapedWebpages = () => {
   const [selectedPage, setSelectedPage] = useState(null);
 
   return (
-    <div style={{ marginTop: "30px",height:"70vh", display:"flex",justifyContent:"center",alignItems:"center"}}>
+    <div style={{marginTop:"30px"}}>
     <div className="scraped-webpages" >
       <h2 className="text-gradient">Scraped Webpages</h2>
       <p>Below are the pages detected from your website:</p>
