@@ -35,7 +35,7 @@ Features
 
 Installation Instructions
 To run the project locally, follow these steps:
-1. Clone the repository:git clone https://github.com/your-username/chatbot-integration.git
+1. Clone the repository:git clone https://github.com/k-bharath0/chatbot-integration.git
 2.  Navigate into the project folder:cd chatbot-integration
 3. Install dependencies:npm install
 7. Run the application:npm start
