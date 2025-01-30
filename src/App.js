@@ -15,15 +15,19 @@ const App = () => {
     <Router>
       <div>
       <Header />
+      
       <Routes>
+        
         <Route path="/" element={<Navigate to="/register" />} />
         <Route path="/register" element={<RegistrationForm />} />
         <Route path="/setup-organization" element={<SetupOrganization />} />
         <Route path="/scraped-webpages" element={<ScrapedWebpages />} />
         <Route path="/chatbot-integration" element={<ChatbotIntegration />} />
         <Route path="/client" element={<ClientPage />} />
+        
       </Routes>
       </div>
+      
     </Router>
   );
 };

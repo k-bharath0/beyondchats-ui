@@ -53,7 +53,7 @@ const SetupOrganization = () => {
   };
 
   return (
-    <div style={{ marginTop: "30px" }}>
+    <div style={{ marginTop: "30px",height:"70vh", display:"flex",justifyContent:"center",alignItems:"center"}}>
       <ToastContainer /> 
 
       <div className="formS">
